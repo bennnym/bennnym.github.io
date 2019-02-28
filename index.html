@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Ben's Portfolio</title>
-  </head>
-  <body>
-<h1>TESTING!</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Memory Card Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+
+<body>
+  <header>
+    <h1>Memory Game</h1>
+  </header>
+  <nav>
+    <a href="about.html">About</a>
+      <a href="index.html">Game</a>
+    <a href="scoring.html">Scoring</a>
+  </nav>
+  <main>
+    <h2>Instructions</h2>
+    <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku,
+      Pexeso or simply Pairs, is a card game in which all of the cards are laid face
+      down on a surface and two cards are flipped face up over each turn. The object
+      of the game is to turn over pairs of matching cards <span>with a twist!...</span></p>
+
+
+      <table>
+        <tr>
+            <th>Rank</th>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+        <tr id="0">
+        </tr>
+        <tr id="1">
+        </tr>
+        <tr id="2">
+        </tr>
+        <tr id="3">
+        </tr>
+        <tr id="4">
+        </tr>
+      </table>
+      <div id="game-board" class="board clearfix"></div>
+      <div id="reset" class="reset clearfix">    </div>
+  </main>
+  <footer class="clearfix">
+    <p class="copyright">Copyright 2019</p>
+    <p class="message">Created with &hearts; by <span class="name">GA</span></p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
